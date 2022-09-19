@@ -2,7 +2,22 @@ package main
 
 import "fmt"
 
+// bagian fungsi
+// func (yang diterima sebagai parameter) nama (parameter) kembalian
+type testfungsi struct {
+	nama string
+}
+
+func (s testfungsi) tampilkan() string {
+	return s.nama
+}
+
 func main() {
+	ass := testfungsi{
+		nama: "farid",
+	}
+	fmt.Println(ass.tampilkan())
+
 	// call back adalah function sebagai argumen
 	n := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
 	// s := sum(n...)
