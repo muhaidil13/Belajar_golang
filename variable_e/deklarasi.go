@@ -1,14 +1,14 @@
-package main
+package variable_e
 
 import "fmt"
 
 // diluar jangan gunakan short scope global
-var test = "coba"
+// var test = "coba"
 
 // memiliki nilai default nilai 0 string kosong boolean false function dll null
-var test1 int
+// var test1 int
 
-func main() {
+func variable_e() {
 	// Deklarasi dengan identifier
 	var b int = 10
 	fmt.Print(b)
