@@ -36,7 +36,7 @@ func variable_e() {
 
 	y := 12 + 10
 	fmt.Println(y)
-	fmt.Println(test)
-	fmt.Println(test1)
+	// fmt.Println(test)
+	// fmt.Println(test1)
 
 }
